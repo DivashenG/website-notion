@@ -5,8 +5,10 @@
 layout: default
 ---
 
-[//]: # (![3d-rocket.png]&#40;assets%2F3d-rocket.png&#41;{: width="100" })
 
 # Hi, I'm Divashen!
----
+
+<br>
+![3d-rocket.png](assets%2F3d-rocket.png){: width="100" }
+
 ## Software Engineer - Physicist - Surf Coach
