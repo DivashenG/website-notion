@@ -32,5 +32,8 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-# GitHub-flavored emoji plugin for Jekyll
-gem 'jemoji'
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  # GitHub-flavored emoji plugin for Jekyll
+  gem 'jemoji'
+end
