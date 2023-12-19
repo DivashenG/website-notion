@@ -11,4 +11,5 @@ layout: default
 <br>
 ![3d-rocket.png](assets%2F3d-rocket.png){: width="100" }
 
+I give this plugin two :+1:!
 ## Software Engineer - Physicist - Surf Coach
