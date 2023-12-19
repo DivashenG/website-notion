@@ -4,12 +4,17 @@
 
 layout: default
 ---
+<style type="text/css">
+/* Adjust the size of Jemoji emojis */
+img.emoji {
+    width: 35px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+</style>
 
-
-# Hi, I'm Divashen!
+# Hi :wave:, I'm Divashen!
 
 <br>
 ![3d-rocket.png](assets%2F3d-rocket.png){: width="100" }
 
-I give this plugin two :+1:!
 ## Software Engineer - Physicist - Surf Coach
