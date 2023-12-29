@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<style>
+    /* CSS for the two-column layout */
+    .left-half {
+        width: 50%;
+        float: left;
+    }
+    .right-half {
+        width: 50%;
+        float: right;
+    }
+</style>
+
+<body>
+
+{%- include header.html -%}
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <div class="left-half">
+            <!-- Content for the left half -->
+
+            {{ content }}
+        </div>
+        <div class="right-half">
+            <!-- Content for the right half -->
+            <img src="/website-notion/assets/3d-casual-life-man-sitting-with-coffee.png" alt="developer with coffee & mac" width="50"/>
+        </div>
+    </div>
+</main>
+
+{%- include footer.html -%}
+
+</body>
+
+</html>
