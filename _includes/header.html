@@ -4,7 +4,7 @@
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-            <img class="rocket-image" src="assets%2F3d-rocket.png" alt="Divashen Govender" width="30"/>
+            <img class="rocket-image" src="{{ "/assets%2F3d-rocket.png" | relative_url }}" alt="Divashen Govender" width="30"/>
         </a>
 
 
