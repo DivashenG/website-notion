@@ -19,6 +19,8 @@ img {
     height: auto;
     margin-left: 100px; /* Adjust the left margin */
     margin-right: 10px; /* Adjust the right margin */
+    margin-top: 5px; /* Adjust the top margin */
+    margin-bottom: 5px; /* Adjust the bottom margin */
 }
 </style>
 
